@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+ <div id="map"></div>
+
+{% for person in site.people %}{% if person.place %}{{ person.place }}%7C{% endif %}{% endfor %}
+
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+<script>
+// replace "toner" here with "terrain" or "watercolor"
+var layer = new L.StamenTileLayer("toner");
+var map = new L.Map("element_id", {
+    center: new L.LatLng(37.7, -122.4),
+    zoom: 12
+});
+map.addLayer(layer);
+</script>
+<style>
+	#map { height: 180px; }
+</style>
