@@ -16,7 +16,7 @@
 	{
 		"name": "website",
 		"input": "textarea",
-		"placeholder": "Portfolio, Twitter, Github, Flickr, Vimeo, Résumé, CV, etc.",
+		"placeholder": "Portfolio, Résumé, CV, Github, Flickr, Vimeo, Twitter, etc.",
 		"text": "Where can we see your work?"
 	},
 	{
