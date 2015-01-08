@@ -33,7 +33,7 @@
 		"name": "essay",
 		"input": "textarea",
 		"rows": "20",
-		"text": "Please tell us a little more about yourself in an essay no larger than 1000 words.",
+		"text": "Please tell us a little more about yourself in an essay of 1000 words.",
 		"help": "Feel free to answer any combination of the following questions:",
 		"questions": [
 			"What are questions you wished you asked yourself five years ago?", 
