@@ -122,7 +122,7 @@ We are located at 155 Bank Street, in the courtyard of the Westbeth Artists' Com
 
 ### Contact Us
 
-Feel free to contact Taeyoon Choi (taeyoon@sfpc.io) for any questions.
+		Feel free to contact Taeyoon Choi (taeyoon@sfpc.io) for any questions.
 
-Image credits: Taeyoon Choi
+		Image credits: Taeyoon Choi
 Painting photos: Kyungjun Lee
